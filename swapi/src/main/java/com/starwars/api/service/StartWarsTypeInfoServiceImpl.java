@@ -15,11 +15,11 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import com.starwars.api.client.swapi.StarWarsAPIClient;
+import com.starwars.api.client.swapi.StarWarsConstants;
 import com.starwars.api.models.Film;
 import com.starwars.api.models.StartWarsTypeInfo;
 import com.starwars.api.models.SwapiModelEnum;
-import com.starwars.api.models.integrations.swapi.StarWarsAPIClient;
-import com.starwars.api.models.integrations.swapi.StarWarsConstants;
 
 @Service
 public class StartWarsTypeInfoServiceImpl implements StarWarsTypeInfoService{
